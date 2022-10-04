@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.circle{
+   margin-left: 90vh;
+   margin-top: 20vh;
+}
+
+
+#app {
+    margin-top: 40px;
+  }
+  
+  #progressInput {
+    margin: 20px auto;
+    width: 30%;
+  }
+  
+  .circle-background,
+  .circle-progress {
+    fill: none;
+  }
+  
+  .circle-background {
+    stroke: #ddd;
+  }
+  
+  .circle-progress {
+    stroke: rgb(12, 11, 11);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .circle-text {
+    font-size: 3em;
+    font-weight: bold;
+    fill: rgb(0, 0, 0);
+  }
+  .buttons{
+    display: flex;
+    margin-left: 90vh;
+    margin-top: 20px;
+
+  }
+  .start{
+    margin-right: 20px;
+    height: 30px;
+    width: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .pause{
+    margin-left: 40px; 
+    height: 30px;
+    width: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    cursor: pointer;
+  }
